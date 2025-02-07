@@ -1,0 +1,103 @@
+body {
+    /* Sets a linear gradient background that is white */
+    background: linear-gradient(to bottom, #FFFFFF, #FFFFFF);
+    /* Makes the background covers the full height of the browser window */
+    background-size: cover;
+    /* Fixes the background image so it doesn't scroll with the content */
+    background-attachment: fixed;
+}
+
+body {
+    /* Adds a left margin of 20px to the body */
+    margin-left: 20px;
+    /* Sets the font family for the body text */
+    font-family: 'Times New Roman';
+}
+
+img {
+    /* Centers the image horizontally */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Sets the maximum width of the image to 350px */
+    max-width: 350px;
+}
+
+.container {
+    /* Sets the maximum width of the container to 100% of its parent element */
+    max-width: 100%;
+}
+
+.content-wrapper {
+    /* Uses flexbox to layout its children */
+    display: flex;
+    /* Distributes space between the children */
+    justify-content: space-between;
+}
+
+.left-content h2 {
+    /* Sets the color of h2 elements inside .left-content to a blue */
+    color: #0066cc;
+    /* Aligns the text to the left */
+    text-align: left;
+    /* Adds a left margin of 20px */
+    margin-left: 20px;
+}
+
+.left-content {
+    /* Aligns the text to the left */
+    text-align: left;
+}
+
+.right-content {
+    /* Aligns the text to the right */
+    text-align: right;
+}
+
+.right-content h2 {
+    /* Sets the color of h2 elements inside .right-content to a blue */
+    color: #0066cc;
+    /* Aligns the text to the left */
+    text-align: left;
+    /* Adds a left margin of 20px */
+    margin-left: 20px;
+}
+
+.right-content ul {
+    /* Removes the default list style */
+    list-style: none;
+    /* Adds padding to the left */
+    padding-left: 20px;
+    /* Sets the text color to black */
+    color: #000000;
+}
+
+.right-content ul li {
+    /* Aligns the text to the left */
+    text-align: left;
+    /* Adds a bottom margin of 5px to each list item */
+    margin-bottom: 5px;
+}
+
+.section-title {
+    /* Sets the color of elements with the class .section-title to a specific blue */
+    color: #0066cc;
+    /* Sets the font size to 1.2em */
+    font-size: 1.2em;
+    /* Adds a top margin of 20px */
+    margin-top: 20px;
+}
+
+.contact-info {
+    /* Aligns the text to the right */
+    text-align: right;
+    /* Adds a bottom margin of 30px */
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 90%; 
+        margin: 20px auto;
+    }
+}
